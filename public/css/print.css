@@ -1,0 +1,132 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,font,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,center,dl,dt,dd,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+    background:transparent;
+    border:0;
+    font-family:inherit;
+    font-size:100%;
+    font-style:inherit;
+    font-weight:inherit;
+    margin:0;
+    padding:0;
+    outline:0;
+    vertical-align:baseline;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* Main Layout */
+html {
+    height:100%;
+    margin-bottom:1px;
+}
+body {
+    font:10pt Helvetica, Arial, sans-serif;
+    /*font: normal normal normal 15px/1.4em 'Courier New', monospace;*/
+    color:#333;
+}
+h1,h2,h3,h4 {
+    font-weight:bold;
+    margin:0 0 20px 0;
+    color: #000;
+}
+h1 {
+    font-size:180%;
+}
+h2 {
+    font-size:150%;
+}
+h3, legend {
+    font-size:130%;
+}
+h4 {
+    font-size:110%;
+}
+p {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.dp20,.dp25,.dp33,.dp40,.dp50,.dp60,.dp75,.dp100 {
+    float:left;
+}
+.dp20 {
+    width:20%;
+}
+.dp25 {
+    width:25%;
+}
+.dp33 {
+    width:33.33%;
+}
+.dp40 {
+    width:40%;
+}
+.dp50 {
+    width:50%;
+}
+.dp60 {
+    width:60%;
+}
+.dp75 {
+    width:75%;
+}
+.dp100 {
+    width:100%;
+}
+.clr {
+    clear:both;
+    font-size:0;
+}
+.printlist {
+    width: 680px;
+    margin: 0 auto;
+}
+.printlist h1 {
+    text-align: center;
+}
+.printlist h2 {
+    font-size: 12pt;
+    margin-bottom: 10px;
+}
+.printlist .pl-object {
+    margin-bottom: 20px;
+}
+.printlist .pl-object-desc {
+    border: 1px solid #999;
+    padding: 0 10px 10px;
+}
+.printlist .pl-object-images {
+    border: 1px solid #999;
+    padding: 20px 10px;
+    margin-top: -1px;
+    height: 100px;
+    overflow: hidden;
+}
+.printlist .pl-agent {
+    margin-bottom: 20px;
+}
+.printlist .pl-agent {
+    text-align: center;
+}
+.printlist .pl-agent ul {    
+    list-style: none;
+    text-align: right;
+    padding-right: 10px;
+}
+.pl-pagebreak {
+    page-break-after: always;
+}
+.pl-agent-image {
+    width: 100%;    
+}
+.pl-object-params {
+    text-align: left;
+}
+.pl-object-params li {
+    list-style: none;
+    float:left;
+    width:33.333%;
+}
+
+.printview ul {
+    margin: 1em;
+}

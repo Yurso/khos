@@ -1,0 +1,16 @@
+.buttons a {
+	cursor: pointer;
+}
+.question-item-title {
+	margin: 10px 0;
+}
+.question-item-choices {
+	margin: 10px 0;
+}
+.question-item-choices li {
+	list-style: none;
+}
+.question-item-answer {
+	display: none;
+}
+

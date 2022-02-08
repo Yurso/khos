@@ -1,0 +1,43 @@
+/* USER */
+#login {
+  width: 280px;
+  border: 1px solid #DDD;
+  padding: 20px;
+  margin: 20px auto 0;
+  background-color: #F9F9F9;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+#login h2 {
+  text-align: center;
+  margin:0 0 20px;
+  font-size: 18pt;
+}
+#login input[type="password"], #login input[type="email"], #login input[type="text"] {
+  padding:10px;
+  margin:10px 0;
+  border:1px solid #ddd;
+  width:93%;
+}
+#login input[type="submit"] {
+  padding: 10px 40px;
+  margin:20px 0 10px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+#login input[type="submit"]:hover {
+  border-color: #aaa;
+}
+.messages {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #008CBD;
+  /* border-radius: 0 0 0 10px; */
+  width: 100%;
+  color: #fff;
+}
+.messages .messages-inner {
+  padding: 20px;
+}

@@ -1,0 +1,234 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,font,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,center,dl,dt,dd,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+    background:transparent;
+    border:0;
+    font-family:inherit;
+    font-size:100%;
+    font-style:inherit;
+    font-weight:inherit;
+    margin:0;
+    padding:0;
+    outline:0;
+    vertical-align:baseline;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* Main Layout */
+html {
+    height:100%;
+    margin-bottom:1px;
+}
+body {
+    font:10pt Helvetica, Arial, sans-serif;
+    /*font: normal normal normal 15px/1.4em 'Courier New', monospace;*/
+    color:#555;
+}
+h1,h2,h3,h4 {
+    font-weight:bold;
+    margin:0 0 20px 0;
+    color: #000;
+}
+h1 {
+    font-size:180%;
+}
+h2 {
+    font-size:150%;
+}
+h3, legend {
+    font-size:130%;
+}
+h4 {
+    font-size:110%;
+}
+a {
+    color:#000;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+ul {
+    margin:1em;
+}
+p {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.dp20,.dp25,.dp33,.dp50,.dp75,.dp100 {
+    float:left;
+}
+.dp20 {
+    width:20%;
+}
+.dp25 {
+    width:25%;
+}
+.dp33 {
+    width:33.33%;
+}
+.dp50 {
+    width:50%;
+}
+.dp75 {
+    width:75%;
+}
+.dp100 {
+    width:100%;
+}
+.clr {
+    clear:both;
+    font-size:0;
+}
+.dev {
+    display: none;
+}
+.small {
+    font-size:70%;
+}
+.wrapper {
+    width:980px;
+    margin: 0 auto;
+}
+#main {    
+    position:relative;
+    margin-top:25px;
+}
+#header {
+    position:relative;
+    height:176px;
+}
+#logo {
+    background:url(../images/logo.jpg) 0 0 no-repeat;
+    display:block;
+    width:236px;
+    height:150px;
+    margin:0 auto;
+}
+.main-table {
+    width: 100%;
+}
+.main-table th {
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    background: #555;
+    color: #FFF;
+    border: 1px solid #AAA;
+}
+.main-table td {
+    padding: 3px 7px;
+    border: 1px solid #EEEEEE;
+    vertical-align: middle;
+}
+#top-menu {
+    height:33px;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+#top-menu .menu {
+    margin:1px 0;
+}
+#top-menu .menu li {
+    float:left;
+    list-style: none;
+    display: block;
+    height:31px;
+    line-height:31px;    
+}
+#top-menu .menu li a {
+    display: block;
+    height:31px;
+    padding:0 50px;
+    text-align: center;
+    text-transform: uppercase; 
+}
+.fav-block {
+    width:225px;
+    height:433px;
+    overflow:hidden;
+    float:left;
+    margin-left:24px;
+    margin-top:25px;
+}
+.fav-block:first-child {
+    margin-left:0;
+}
+.fav-image {
+    height:300px;
+    margin-bottom:13px;
+}
+.fav-desc {
+    background-color:#2c2c2b;
+    height:120px;
+    color:#fff;
+    text-align: center;
+    padding:0 16px;    
+}
+.fav-desc .line1 {
+    height:40px;
+    overflow: hidden;
+    border-bottom:1px solid #cdcdc9;
+    padding: 14px 0;
+}
+.fav-desc .line2 {    
+    overflow: hidden;
+    text-transform: uppercase;
+}
+.fav-desc a {
+    display:block;
+    background: url(../images/plus.png) left center no-repeat;
+    padding-left: 25px;
+    color:#fff;
+    width:85px;
+    height:20px;
+    margin:15px auto 0;
+}
+.main-content {
+    margin-top:25px;
+    font-family: Tahoma, Arial;
+    font-size:14px;
+    text-align: justify;
+    color:#555;
+}
+.main-content .dp50 .content-block {
+    padding-right:10px;
+}
+.main-content .dp25 .content-block {
+    border-left:1px solid #999;
+    padding: 10px;
+    height:210px;
+}
+#footer {
+    border-top:1px solid #000;    
+    margin-top:45px;
+    clear: both;
+    text-align: center;
+}
+.img-c-black {
+    width:100%;
+    background: #090907;
+    text-align:center;
+}
+h2.blog-item-title {
+    margin: 0;
+}
+.blog-item {
+    clear: both;    
+}
+
+
+/* content component */
+.content-module {
+    font: 13px/1.2 Tahoma, sans-serif;    
+    text-align: justify;
+}
+
+
+.printview {
+    padding: 20px;
+}
+.printview ul {
+    /*list-style: none;*/
+    /*margin: 0;*/
+}
